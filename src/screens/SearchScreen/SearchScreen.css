@@ -1,0 +1,77 @@
+.screen.search {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screen.search #search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.screen.search #search-form #search-key-input {
+    width: 300px;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-right: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+.screen.search #search-form #search-button {
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: none;
+    background-color: darkblue;
+    border-radius: 20px;
+}
+
+.screen.search #searching-message {
+    margin-top: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: gray;
+}
+
+.screen.search #user-list {
+    margin-top: 30px;    
+    width: 400px;
+}
+
+.screen.search #user-list .user-list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.screen.search #user-list .user-list-item .user-image {
+    width: 100px;
+    height: 100px;
+}
+
+.screen.search #user-list .user-list-item .user-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.screen.search #user-list .user-list-item .user-login-label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    cursor: pointer;
+}
+
